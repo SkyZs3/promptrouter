@@ -1,0 +1,56 @@
+kategori,plan,firma,model,puan,hata_payi,tarih,kaynak
+Genel,Ücretli,Google,Gemini 4 Argon (High),1517,7,2026-10-23,arena.ai Text Arena - Overall
+Genel,Ücretli,Anthropic,Claude Opus 5.5 (High),1509,7,2026-10-23,arena.ai Text Arena - Overall
+Genel,Ücretli,Meta,Muse Wonder (Max),1509,8,2026-10-23,arena.ai Text Arena - Overall
+Genel,Ücretli,OpenAI,GPT-5.6 Sol (xHigh),1485,4,2026-10-23,arena.ai Text Arena - Overall
+Genel,Ücretli,DeepSeek,DeepSeek-V4.1-Flash-20260910 (Max),1476,6,2026-10-23,arena.ai Text Arena - Overall
+Genel,Ücretli,SpaceXAI,Grok 4.20 Beta 1,1475,5,2026-10-23,arena.ai Text Arena - Overall
+Genel,Ücretli,Microsoft,Phi-4,1256,5,2026-10-23,arena.ai Text Arena - Overall
+Matematik ve hesaplama,Ücretli,Google,Gemini 4 Argon (High),1532,24,2026-10-23,arena.ai Text Arena - Math
+Matematik ve hesaplama,Ücretli,Anthropic,Claude Fable 5.1 (Max),1529,21,2026-10-23,arena.ai Text Arena - Math
+Matematik ve hesaplama,Ücretli,OpenAI,GPT-6.1 Sol (Max),1513,26,2026-10-23,arena.ai Text Arena - Math
+Matematik ve hesaplama,Ücretli,Meta,Muse Spark 1.3 (Max),1510,18,2026-10-23,arena.ai Text Arena - Math
+Matematik ve hesaplama,Ücretli,DeepSeek,DeepSeek-V4.1-Flash-20260910 (Max),1495,21,2026-10-23,arena.ai Text Arena - Math
+Matematik ve hesaplama,Ücretli,SpaceXAI,Grok 4.5,1473,14,2026-10-23,arena.ai Text Arena - Math
+Matematik ve hesaplama,Ücretli,Microsoft,Phi-4,1265,11,2026-10-23,arena.ai Text Arena - Math
+Yazılım,Ücretli,Google,Gemini 4 Argon (High),1552,13,2026-10-23,arena.ai Text Arena - Coding
+Yazılım,Ücretli,Anthropic,Claude Fable 5 (High),1551,6,2026-10-23,arena.ai Text Arena - Coding
+Yazılım,Ücretli,Meta,Muse Wonder (Max),1545,16,2026-10-23,arena.ai Text Arena - Coding
+Yazılım,Ücretli,OpenAI,GPT-6 Astra (Max),1543,11,2026-10-23,arena.ai Text Arena - Coding
+Yazılım,Ücretli,DeepSeek,DeepSeek-V4.1-Flash-20260910 (Max),1523,10,2026-10-23,arena.ai Text Arena - Coding
+Yazılım,Ücretli,SpaceXAI,Grok 4.5,1514,7,2026-10-23,arena.ai Text Arena - Coding
+Yazılım,Ücretli,Microsoft,Phi-4,1306,10,2026-10-23,arena.ai Text Arena - Coding
+Yaratıcı yazı,Ücretli,Anthropic,Claude Opus 5.5 (High),1520,14,2026-10-23,arena.ai Text Arena - Creative Writing
+Yaratıcı yazı,Ücretli,Google,Gemini 4 Argon (High),1512,14,2026-10-23,arena.ai Text Arena - Creative Writing
+Yaratıcı yazı,Ücretli,Meta,Muse Wonder (Max),1492,17,2026-10-23,arena.ai Text Arena - Creative Writing
+Yaratıcı yazı,Ücretli,OpenAI,GPT-5.6 Sol (xHigh),1470,7,2026-10-23,arena.ai Text Arena - Creative Writing
+Yaratıcı yazı,Ücretli,SpaceXAI,Grok 4.20 Beta 1,1464,10,2026-10-23,arena.ai Text Arena - Creative Writing
+Yaratıcı yazı,Ücretli,DeepSeek,DeepSeek-V4-Pro,1446,7,2026-10-23,arena.ai Text Arena - Creative Writing
+Yaratıcı yazı,Ücretli,Microsoft,Phi-4,1210,10,2026-10-23,arena.ai Text Arena - Creative Writing
+Bilim,Ücretli,Google,Gemini 4 Argon (High),1532,15,2026-10-23,arena.ai Text Arena - Life/Physical/Social Science
+Bilim,Ücretli,Anthropic,Claude Opus 4.6 (High),1527,6,2026-10-23,arena.ai Text Arena - Life/Physical/Social Science
+Bilim,Ücretli,Meta,Muse Wonder (Max),1521,19,2026-10-23,arena.ai Text Arena - Life/Physical/Social Science
+Bilim,Ücretli,OpenAI,GPT-5.5 (High),1498,7,2026-10-23,arena.ai Text Arena - Life/Physical/Social Science
+Bilim,Ücretli,DeepSeek,DeepSeek-V4.1-Flash-20260910 (Max),1490,13,2026-10-23,arena.ai Text Arena - Life/Physical/Social Science
+Bilim,Ücretli,SpaceXAI,Grok 4.20 Beta (Reasoning 0309),1489,7,2026-10-23,arena.ai Text Arena - Life/Physical/Social Science
+Bilim,Ücretli,Microsoft,Phi-4,1265,10,2026-10-23,arena.ai Text Arena - Life/Physical/Social Science
+Genel,Ücretsiz,OpenAI,GPT-5.6 Luna (xHigh),1453,4,2026-10-23,"arena.ai Text Arena - Overall (ücretsiz katman modeli, tahmini eşleştirme)"
+Genel,Ücretsiz,Anthropic,Claude Sonnet 5.5 (xHigh),1478,7,2026-10-23,"arena.ai Text Arena - Overall (ücretsiz katman modeli, tahmini eşleştirme)"
+Genel,Ücretsiz,Google,Gemini 3.5 Flash-Lite,1455,4,2026-10-23,"arena.ai Text Arena - Overall (ücretsiz katman modeli, tahmini eşleştirme)"
+Genel,Ücretsiz,DeepSeek,DeepSeek-V4.1-Flash-20260910 (Max),1476,6,2026-10-23,"arena.ai Text Arena - Overall (ücretsiz katman modeli, tahmini eşleştirme)"
+Matematik ve hesaplama,Ücretsiz,OpenAI,GPT-5.6 Luna (xHigh),1478,14,2026-10-23,"arena.ai Text Arena - Math (ücretsiz katman modeli, tahmini eşleştirme)"
+Matematik ve hesaplama,Ücretsiz,Anthropic,Claude Sonnet 5.5 (xHigh),1501,27,2026-10-23,"arena.ai Text Arena - Math (ücretsiz katman modeli, tahmini eşleştirme)"
+Matematik ve hesaplama,Ücretsiz,Google,Gemini 3.5 Flash-Lite,1443,15,2026-10-23,"arena.ai Text Arena - Math (ücretsiz katman modeli, tahmini eşleştirme)"
+Matematik ve hesaplama,Ücretsiz,DeepSeek,DeepSeek-V4.1-Flash-20260910 (Max),1495,21,2026-10-23,"arena.ai Text Arena - Math (ücretsiz katman modeli, tahmini eşleştirme)"
+Yazılım,Ücretsiz,OpenAI,GPT-5.6 Luna (xHigh),1502,7,2026-10-23,"arena.ai Text Arena - Coding (ücretsiz katman modeli, tahmini eşleştirme)"
+Yazılım,Ücretsiz,Anthropic,Claude Sonnet 5.5 (xHigh),1528,13,2026-10-23,"arena.ai Text Arena - Coding (ücretsiz katman modeli, tahmini eşleştirme)"
+Yazılım,Ücretsiz,Google,Gemini 3.5 Flash-Lite,1502,7,2026-10-23,"arena.ai Text Arena - Coding (ücretsiz katman modeli, tahmini eşleştirme)"
+Yazılım,Ücretsiz,DeepSeek,DeepSeek-V4.1-Flash-20260910 (Max),1523,10,2026-10-23,"arena.ai Text Arena - Coding (ücretsiz katman modeli, tahmini eşleştirme)"
+Yaratıcı yazı,Ücretsiz,OpenAI,GPT-5.6 Luna (xHigh),1410,8,2026-10-23,"arena.ai Text Arena - Creative Writing (ücretsiz katman modeli, tahmini eşleştirme)"
+Yaratıcı yazı,Ücretsiz,Anthropic,Claude Sonnet 5.5 (xHigh),1466,14,2026-10-23,"arena.ai Text Arena - Creative Writing (ücretsiz katman modeli, tahmini eşleştirme)"
+Yaratıcı yazı,Ücretsiz,Google,Gemini 3.5 Flash-Lite,1436,8,2026-10-23,"arena.ai Text Arena - Creative Writing (ücretsiz katman modeli, tahmini eşleştirme)"
+Yaratıcı yazı,Ücretsiz,DeepSeek,DeepSeek-V4.1-Flash-20260910 (Max),1442,12,2026-10-23,"arena.ai Text Arena - Creative Writing (ücretsiz katman modeli, tahmini eşleştirme)"
+Bilim,Ücretsiz,OpenAI,GPT-5.6 Luna (xHigh),1461,8,2026-10-23,"arena.ai Text Arena - Life/Physical/Social Science (ücretsiz katman modeli, tahmini eşleştirme)"
+Bilim,Ücretsiz,Anthropic,Claude Sonnet 5.5 (xHigh),1498,16,2026-10-23,"arena.ai Text Arena - Life/Physical/Social Science (ücretsiz katman modeli, tahmini eşleştirme)"
+Bilim,Ücretsiz,Google,Gemini 3.5 Flash-Lite,1479,8,2026-10-23,"arena.ai Text Arena - Life/Physical/Social Science (ücretsiz katman modeli, tahmini eşleştirme)"
+Bilim,Ücretsiz,DeepSeek,DeepSeek-V4.1-Flash-20260910 (Max),1490,13,2026-10-23,"arena.ai Text Arena - Life/Physical/Social Science (ücretsiz katman modeli, tahmini eşleştirme)"
