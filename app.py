@@ -226,15 +226,15 @@ def grafik_temasi():
 # ---------------------------------------------------------------
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 GROQ_MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-20b")
-ZAMAN_ASIMI = 4  # saniye: cevap bu sürede gelmezse kelime filtresine dönülür
+ZAMAN_ASIMI = int(os.environ.get("ZAMAN_ASIMI", "8"))  # saniye: cevap bu sürede gelmezse sıradakine/kelime filtresine dönülür
 
-YONTEM_OTOMATIK = "Otomatik (Gemini, olmazsa Groq, olmazsa kelime filtresi)"
+YONTEM_OTOMATIK = "Otomatik (Groq, olmazsa Gemini, olmazsa kelime filtresi)"
 YONTEM_GEMINI = "Sadece Gemini (olmazsa kelime filtresi)"
 YONTEM_GROQ = "Sadece Groq (olmazsa kelime filtresi)"
 YONTEM_FILTRE = "Sadece kelime filtresi (internetsiz)"
 # Her yöntemde hangi sağlayıcıların hangi sırayla deneneceği
 YONTEMLER = {
-    YONTEM_OTOMATIK: ["Gemini", "Groq"],
+    YONTEM_OTOMATIK: ["Groq", "Gemini"],
     YONTEM_GEMINI: ["Gemini"],
     YONTEM_GROQ: ["Groq"],
     YONTEM_FILTRE: [],
@@ -291,7 +291,9 @@ def etiket_ayikla(metin):
 
 def http_post(url, govde, basliklar):
     istek = urllib.request.Request(
-        url, data=json.dumps(govde).encode(), headers={"Content-Type": "application/json", **basliklar}
+        url,
+        data=json.dumps(govde).encode(),
+        headers={"Content-Type": "application/json", **basliklar},
     )
     with urllib.request.urlopen(istek, timeout=ZAMAN_ASIMI) as cevap:
         return json.loads(cevap.read().decode())
@@ -321,9 +323,14 @@ def saglayiciya_sor(ad, soru):
                     "model": GROQ_MODEL,
                     "messages": [{"role": "user", "content": ISTEM + soru[:2000]}],
                     "temperature": 0,
-                    "max_tokens": 300,
+                    "max_tokens": 1000,
                 },
-                {"Authorization": f"Bearer {anahtar}"},
+                {
+                    "Authorization": f"Bearer {anahtar}",
+                    # Groq, Python'un varsayılan kimliğini ("Python-urllib") engelleyebiliyor.
+                    "User-Agent": "PromptRouter/1.0 (ders projesi)",
+                    "Accept": "application/json",
+                },
             )
             metin = veri["choices"][0]["message"]["content"]
         kategori = etiket_ayikla(metin)

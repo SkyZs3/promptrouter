@@ -2,7 +2,7 @@
 
 Kullanıcının sahip olduğu yapay zekâ hesaplarına (ücretsiz/ücretli) göre, yazdığı soru için
 en uygun yapay zekâyı ve limit dolarsa yedeğini öneren bir Streamlit uygulaması.
-Yapay zekâ modeli ya da ücretli API kullanılmaz; sınıflandırma anahtar kelime filtresiyle yapılır.
+Ücretli API kullanılmaz. Sınıflandırma varsayılan olarak anahtar kelime filtresiyle yapılır (internetsiz, ücretsiz); isteğe bağlı olarak ücretsiz bir API anahtarıyla (Gemini/Groq) yapay zekâ ile de yapılabilir, anahtar yoksa ya da internet yoksa filtre devreye girer.
 
 ## Kurulum ve çalıştırma
 ```
@@ -25,9 +25,9 @@ Tarayıcıda açılan adres (aynı ağdan "Network URL" ile de erişilebilir) uy
    ve oturumdaki isteklerin kategori/öneri dağılımı (Matplotlib + Seaborn).
 
 ## Yapay zekâ ile sınıflandırma (isteğe bağlı)
-- Sol menüde "Soru kategorisi nasıl belirlensin?" seçeneği vardır: Otomatik (Gemini, olmazsa Groq, olmazsa kelime filtresi), Sadece Gemini, Sadece Groq ya da Sadece kelime filtresi (internetsiz).
+- Sol menüde "Soru kategorisi nasıl belirlensin?" seçeneği vardır: Otomatik (Groq, olmazsa Gemini, olmazsa kelime filtresi), Sadece Gemini, Sadece Groq ya da Sadece kelime filtresi (internetsiz).
 - Yapay zekâ seçenekleri için ücretsiz bir API anahtarı gerekir: `GEMINI_API_KEY` (Google AI Studio) ve/veya `GROQ_API_KEY` (Groq). Anahtar ortam değişkeni ya da `.streamlit/secrets.toml` ile verilir; kodun içinde ve teslim dosyalarında yoktur.
-- İnternet yoksa, yavaşsa (4 saniye zaman aşımı), kota dolduysa ya da cevap anlaşılmazsa uygulama sıradaki sağlayıcıya, o da olmazsa kelime filtresine döner ve nedenini ekranda yazar.
+- İnternet yoksa, yavaşsa (8 saniye zaman aşımı), kota dolduysa ya da cevap anlaşılmazsa uygulama sıradaki sağlayıcıya, o da olmazsa kelime filtresine döner ve nedenini ekranda yazar.
 - Yapay zekâ seçeneklerinde soru metni Google/Groq sunucusuna gönderilir. Aynı soru için başarılı sonuç oturum boyunca saklanır.
 
 ## Hesaplar
